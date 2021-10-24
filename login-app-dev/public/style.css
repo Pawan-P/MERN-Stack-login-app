@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+  
+header h1 {
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+.form-h2{
+    float: left;
+}
+
+.container{
+    margin: 30px auto;
+    padding: 40px 50px 50px 50px;
+    text-align: center;
+    width: 600px;
+    background-color: #eee;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+input{
+    font-size: 1.1rem;
+    appearance: none;
+    padding: 3px 0px 3px 3px;
+    margin-bottom: 25px;
+    border-color: rgb(253, 252, 252);
+    border-radius: 5px;
+}
+
+button{
+    background-color: grey;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px;
+    padding: 6px 10px 6px 10px;
+}
+
+.btn{
+    font-size: 1.2rem;
+    color: #eee;
+    padding: 6px 18px 6px 18px;
+}
+
+.log-in-btn{
+    font-size: 1.2rem;
+    color: #eee;
+    padding: 6px 23px 6px 23px;
+    margin-right: 17px;
+}
+
+.header-links{
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 16px 10px 16px 10px;
+    color: #262626;
+    font-weight: bold;
+}
+
+.header-links:hover{
+    background-color: #ab8007;
+    color: black;
+}
+ .redirect{
+    text-decoration: none;
+    color: #666;
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
